@@ -4,5 +4,5 @@ class Node:
         self.value = value
         self.right = None
         self.left = None
-
+        
     

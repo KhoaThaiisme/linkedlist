@@ -79,29 +79,37 @@ class LinkedList:
                 node = node.right
             node.right = None
 
-linked_list = LinkedList()
+    def add_list_elements(self, a_list):
+        for e in a_list:
+            self.add_node(str(e))
 
-linked_list.add_node('Sunday')
-linked_list.add_node('Monday')
-linked_list.add_node('Tuesday')
-linked_list.add_node('Thursday')
+# linked_list = LinkedList()
 
-print(linked_list)
-
-# linked_list.insert_node('Tuesday', 'Wednesday')
+# linked_list.add_list_elements([1,2,3,4,5])
 
 # print(linked_list)
 
-linked_list.add_node('Spazday')
+# linked_list.add_node('Sunday')
+# linked_list.add_node('Monday')
+# linked_list.add_node('Tuesday')
+# linked_list.add_node('Thursday')
 
-print(linked_list)
+# print(linked_list)
 
-linked_list.remove_node('Sunday')
+# # linked_list.insert_node('Tuesday', 'Wednesday')
 
-print(linked_list)
+# # print(linked_list)
 
-linked_list.remove_tail()
-print(linked_list)
+# linked_list.add_node('Spazday')
+
+# print(linked_list)
+
+# linked_list.remove_node('Sunday')
+
+# print(linked_list)
+
+# linked_list.remove_tail()
+# print(linked_list)
 
 
 # node = Node(1)
